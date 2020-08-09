@@ -7,23 +7,7 @@ import (
 
 func tripletSum(a []int) [][]int {
 
-	//res := make([]int, 3)
-	// numRows := 5
-
 	var res2d [][]int
-	// // Initialize a five length slice of empty slices
-	// grid := make([][]int, numRows)
-
-	// // print out slices
-	// fmt.Println(grid)
-
-	// // Initialize the 5 empty slices
-	// for i := 0; i < numRows; i++ {
-	//    grid[i] = make([]int, 4)
-	// }
-
-	// // print out slices
-	// fmt.Println(grid)
 	sort.Ints(a)
 	fmt.Println(a)
 	n := len(a) - 1
